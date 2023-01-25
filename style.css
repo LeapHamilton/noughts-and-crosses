@@ -1,0 +1,33 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.container {
+    min-height: 100%;
+ display: flex;
+ align-items: center;
+   justify-content: center;
+
+}
+
+.board {
+    border:black solid 1px;
+    display: flex;
+    flex-wrap: wrap; 
+    width: 300px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 100px;
+   color:brown;
+   
+}
+
+.board div {
+    width: 100px;
+    height: 100px;
+    color:blue;
+    display: inline-block;
+}
+
+
